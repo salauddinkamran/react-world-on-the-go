@@ -1,7 +1,7 @@
 import { use, useState } from "react";
 import Country from "../Country/Country";
 
-const countries = ({ countriesPromis }) => {
+const Countries = ({ countriesPromis }) => {
   const [visitedCountries, setVisitedCountires] = useState([]);
   const [visitedFlags, setVisitedFlags] = useState([]);
 
@@ -47,4 +47,4 @@ const countries = ({ countriesPromis }) => {
   );
 };
 
-export default countries;
+export default Countries;

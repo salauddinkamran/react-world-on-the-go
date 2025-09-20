@@ -6,6 +6,10 @@
   border-radius: 5px;
 }
 
+.single-card img {
+  width: 100%;
+}
+
 .visited-country {
   background-color: white;
   color: black;
