@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../Country/country.css";
+import "./country.css";
 
 const Country = ({ country, handleVisitedCountries, handleVisitedFlag }) => {
   const [visited, setVisited] = useState(false);
