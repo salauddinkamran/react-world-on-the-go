@@ -1,14 +1,12 @@
 import { use, useState } from "react";
-import React from "react";
 import Country from "../Country/Country";
 
 const countries = ({ countriesPromis }) => {
   const [visitedCountries, setVisitedCountires] = useState([]);
   const [visitedFlags, setVisitedFlags] = useState([])
 
-
   const handleVisitedCountries = (country) => {
-    console.log("Total Visited Countries", country);
+    // console.log("Total Visited Countries", country);
     const newVisitedCountries = [...visitedCountries, country];
     setVisitedCountires(newVisitedCountries);
   };
@@ -20,7 +18,6 @@ const countries = ({ countriesPromis }) => {
 
   const countriesData = use(countriesPromis);
   const countries = countriesData.countries;
-  // console.log(countries);
   return (
     <div>
       <h1>I am countries here: {countries.length}</h1>
