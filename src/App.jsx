@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import "./App.css";
-import Countries from "./Components/Countries/Countries";
+import Countries from "./components/countries/countries";
 const countriesPromis = fetch(
   "https://openapi.programming-hero.com/api/all"
 ).then((res) => res.json());
