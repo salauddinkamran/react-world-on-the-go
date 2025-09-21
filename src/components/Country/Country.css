@@ -1,14 +1,14 @@
-
-
 .single-card {
   border: 1px solid white;
-  padding: 10px;
   border-radius: 5px;
+  padding: 10px;
 }
+
 
 .single-card img {
   width: 100%;
 }
+
 
 .visited-country {
   background-color: white;
